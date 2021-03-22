@@ -1,11 +1,20 @@
+import { Component } from "react";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./Navbar";
+import Upper from "./Upper";
+import Projects from "./Projects";
 
-function App() {
-  return (
-    <div className="App">
-      <div className="Navbar"></div>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="container">
+        <Navbar />
+        <Upper />
+        <Projects />
+      </div>
+    );
+  }
 }
 
 export default App;

@@ -1,0 +1,39 @@
+.projects {
+  min-height: 80vh;
+}
+
+.project {
+  height: 400px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px !important;
+  border: 1px solid #94ffba;
+  padding: 20px;
+}
+
+.description {
+  opacity: 0.7;
+}
+
+.icon__container {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.btn-view {
+  background-color: #94ffba;
+  color: black;
+  height: 60px;
+  padding: 15px 60px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px !important;
+}
+
+.wip {
+  padding: 5px 40px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px !important;
+  background-color: black;
+  color: white;
+  margin: 10px;
+}

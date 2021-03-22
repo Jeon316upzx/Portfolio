@@ -1,0 +1,12 @@
+.myNavbar {
+  height: 50px;
+}
+
+.nav-item-icon {
+  padding-left: 20px;
+  color: black;
+}
+
+.nav-item-icon:hover {
+  opacity: 0.6;
+}
